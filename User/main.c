@@ -1,4 +1,4 @@
-#include "stm32f10x.h"                  // Device header
+#include "stm32f10x.h" // Device header
 #include "App.h"
 
 /*----------------------------------------------------------------------------
@@ -11,9 +11,10 @@
 
 int main(void)
 {
-	App_Init();                 //初始化全部外设并校准 IMU
+	App_Init(); // 初始化全部外设并校准 IMU
 
-	App_Loop();                 //主循环（内部是 while(1)，不会返回）
+	App_Loop(); // 主循环（内部是 while(1)，不会返回）
 
 	return 0;
 }
+// demo
